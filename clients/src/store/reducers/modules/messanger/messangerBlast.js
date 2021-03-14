@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const messangerBlast = (state=initialState, action) => {
-  
+  return state
 }
 
 export default messangerBlast

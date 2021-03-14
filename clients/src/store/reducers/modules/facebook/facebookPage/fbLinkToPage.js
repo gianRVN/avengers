@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const fbLinkToPage = (state=initialState, action) => {
-  
+  return state
 }
 
 export default fbLinkToPage

@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const jneDomesticRegular = (state=initialState, action) => {
-  
+  return state
 }
 
 export default jneDomesticRegular

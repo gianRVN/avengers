@@ -5,7 +5,7 @@ const initialState = {
 }
 
 const myPurchase = (state=initialState, action) => {
-  
+  return state
 }
 
 export default myPurchase

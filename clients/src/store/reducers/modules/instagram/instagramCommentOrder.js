@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const instagramCommentOrder = (state=initialState, action) => {
-  
+  return state
 }
 
 export default instagramCommentOrder

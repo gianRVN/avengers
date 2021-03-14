@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const blogspot = (state=initialState, action) => {
-  
+  return state
 }
 
 export default blogspot

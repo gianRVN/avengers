@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const fbShop = (state=initialState, action) => {
-  
+  return state
 }
 
 export default fbShop

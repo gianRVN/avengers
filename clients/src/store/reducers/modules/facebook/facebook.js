@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const facebook = (state=initialState, action) => {
-  
+  return state
 }
 
 export default facebook

@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const storeInformation = (state=initialState, action) => {
-  
+  return state
 }
 
 export default storeInformation

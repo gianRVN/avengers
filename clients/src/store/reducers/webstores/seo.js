@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const seo = (state=initialState, action) => {
-  
+  return state
 }
 
 export default seo

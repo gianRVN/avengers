@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const avacredit = (state=initialState, action) => {
-  
+  return state
 }
 
 export default avacredit

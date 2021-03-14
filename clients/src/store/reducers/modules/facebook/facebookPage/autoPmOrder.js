@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const autoPmOrder = (state=initialState, action) => {
-  
+  return state
 }
 
 export default autoPmOrder

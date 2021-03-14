@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const instagramConnect = (state=initialState, action) => {
-  
+  return state
 }
 
 export default instagramConnect

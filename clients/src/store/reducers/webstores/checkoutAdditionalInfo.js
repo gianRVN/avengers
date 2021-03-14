@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const checkoutAdditionalInfo = (state=initialState, action) => {
-  
+  return state
 }
 
 export default checkoutAdditionalInfo

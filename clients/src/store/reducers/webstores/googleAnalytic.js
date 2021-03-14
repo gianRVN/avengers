@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const googleAnalytic = (state=initialState, action) => {
-  
+  return state
 }
 
 export default googleAnalytic

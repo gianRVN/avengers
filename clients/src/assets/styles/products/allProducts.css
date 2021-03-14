@@ -1,0 +1,52 @@
+.all-products-container {
+  margin: 50px;
+  width: 100%;
+}
+
+.all-products-flex {
+ display: flex;
+ justify-content: space-around;
+}
+
+.all-products-active {
+  cursor: pointer;
+  background-color: #FCB613;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px 0;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.all-products-menu {
+  cursor: pointer;
+  background-color: #f5f5f7;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px 0;
+  margin: 0 10px;
+  text-align: center;
+}
+
+form {
+  margin: 50px 0;
+}
+
+input {
+  padding: 10px 1px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  padding: 10px;
+  background-color: red;
+  border-radius: 10px;
+}

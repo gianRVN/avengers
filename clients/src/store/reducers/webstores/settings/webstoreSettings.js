@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const webstoreSettings = (state=initialState, action) => {
-  
+  return state
 }
 
 export default webstoreSettings

@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const defaultDomain = (state=initialState, action) => {
-  
+  return state
 }
 
 export default defaultDomain

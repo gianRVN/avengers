@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const avachat = (state=initialState, action) => {
-  
+  return state
 }
 
 export default avachat

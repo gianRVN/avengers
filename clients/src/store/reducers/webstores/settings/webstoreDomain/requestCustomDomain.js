@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const requestCustomDomain = (state=initialState, action) => {
-  
+  return state
 }
 
 export default requestCustomDomain

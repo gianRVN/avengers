@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const showFilterControl = (state=initialState, action) => {
-  
+  return state
 }
 
 export default showFilterControl

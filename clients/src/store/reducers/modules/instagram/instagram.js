@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const instagram = (state=initialState, action) => {
-  
+  return state
 }
 
 export default instagram

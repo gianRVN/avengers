@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const themes = (state=initialState, action) => {
-  
+  return state
 }
 
 export default themes

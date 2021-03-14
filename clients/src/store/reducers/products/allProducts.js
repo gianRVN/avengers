@@ -5,7 +5,7 @@ const initialState = {
 }
 
 const allProducts = (state=initialState, action) => {
-  
+  return state
 }
 
 export default allProducts

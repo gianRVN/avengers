@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const facebookMarketing = (state=initialState, action) => {
-  
+  return state
 }
 
 export default facebookMarketing

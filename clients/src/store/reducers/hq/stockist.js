@@ -5,7 +5,7 @@ const initialState = {
 }
 
 const stockist = (state=initialState, action) => {
-  
+  return state
 }
 
 export default stockist

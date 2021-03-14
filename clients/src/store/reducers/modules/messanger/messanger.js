@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const messanger = (state=initialState, action) => {
-  
+  return state
 }
 
 export default messanger

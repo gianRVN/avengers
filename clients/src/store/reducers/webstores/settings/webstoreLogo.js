@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const webstoreLogo = (state=initialState, action) => {
-  
+  return state
 }
 
 export default webstoreLogo

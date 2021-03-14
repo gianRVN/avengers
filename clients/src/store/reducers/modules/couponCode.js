@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const couponCode = (state=initialState, action) => {
-  
+  return state
 }
 
 export default couponCode

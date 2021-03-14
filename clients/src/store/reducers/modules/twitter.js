@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const twitter = (state=initialState, action) => {
-  
+  return state
 }
 
 export default twitter

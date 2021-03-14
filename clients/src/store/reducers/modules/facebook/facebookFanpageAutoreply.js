@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const facebookFanpageAutoreply = (state=initialState, action) => {
-  
+  return state
 }
 
 export default facebookFanpageAutoreply

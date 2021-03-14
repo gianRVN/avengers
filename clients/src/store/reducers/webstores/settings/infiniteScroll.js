@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const infiniteScroll = (state=initialState, action) => {
-  
+  return state
 }
 
 export default infiniteScroll

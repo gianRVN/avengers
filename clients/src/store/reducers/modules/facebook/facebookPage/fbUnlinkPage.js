@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const fbUnlinkPage = (state=initialState, action) => {
-  
+  return state
 }
 
 export default fbUnlinkPage

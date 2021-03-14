@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const poslajuInternational = (state=initialState, action) => {
-  
+  return state
 }
 
 export default poslajuInternational

@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const janio = (state=initialState, action) => {
-  
+  return state
 }
 
 export default janio

@@ -1,0 +1,28 @@
+.container-dashboard {
+  margin: 50px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 2rem;
+}
+
+.header-dashboard {
+  border-radius: 10px;
+  background-color:#f5f5f7;
+  width: 100%;
+  grid-column: 1 / span 3;
+  text-align: center;
+}
+
+.item-dashboard {
+  border-radius: 10px;
+  background-color:#f5f5f7;
+  text-align: center;
+}
+
+.footer-dashboard {
+  border-radius: 10px;
+  background-color:#f5f5f7;
+  grid-column: 1 / span 3;
+  text-align: center;
+}

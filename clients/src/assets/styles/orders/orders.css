@@ -1,0 +1,14 @@
+.container-orders {
+  margin: 50px;
+  width: 100%;
+}
+
+.table-orders {
+  width: 100%;
+}
+
+.table-orders td, .table-orders th {
+  background-color: #e5e5e5;
+  padding: 10px 0;
+  text-align: center;
+}

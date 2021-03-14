@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const webstoreSlider = (state=initialState, action) => {
-  
+  return state
 }
 
 export default webstoreSlider

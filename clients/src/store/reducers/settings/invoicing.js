@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const invoicing = (state=initialState, action) => {
-  
+  return state
 }
 
 export default invoicing

@@ -5,7 +5,7 @@ const initialState = {
 }
 
 const dropship = (state=initialState, action) => {
-  
+  return state
 }
 
 export default dropship

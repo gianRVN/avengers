@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const couriers = (state=initialState, action) => {
-  
+  return state
 }
 
 export default couriers

@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const poslaju = (state=initialState, action) => {
-  
+  return state
 }
 
 export default poslaju

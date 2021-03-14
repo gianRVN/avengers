@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const payment = (state=initialState, action) => {
-  
+  return state
 }
 
 export default payment

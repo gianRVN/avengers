@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const molpay = (state=initialState, action) => {
-  
+  return state
 }
 
 export default molpay

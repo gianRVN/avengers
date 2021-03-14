@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const webstoreDomain = (state=initialState, action) => {
-  
+  return state
 }
 
 export default webstoreDomain

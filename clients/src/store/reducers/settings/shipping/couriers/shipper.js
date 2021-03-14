@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const shipper = (state=initialState, action) => {
-  
+  return state
 }
 
 export default shipper

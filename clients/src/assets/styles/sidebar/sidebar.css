@@ -1,0 +1,91 @@
+.sidebar {
+  overflow: auto;
+  background-color: #334553;
+  padding: 20px 0;
+  width: 400px;
+}
+
+.sidebar ul {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+
+.sidebar ul li {
+  list-style-type: none;
+  color: #e5e5e5;
+  font-size: 18px;
+  vertical-align: text-bottom;
+  text-decoration: none;
+}
+
+.avana-logo {
+ text-align: center;
+}
+
+.avana-logo img {
+  width: 50%;
+}
+
+.avatar {
+  text-align: center;
+ }
+
+.avatar img {
+  width: 50%
+}
+
+hr {
+  border: 1px solid #2d3d49
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main-menu {
+  display: flex;
+  justify-content: space-between;
+  align-self: baseline;
+  gap: 5px;
+  padding: 20px 20px 20px 30px;
+  cursor: pointer;
+}
+
+.main-menu-active {
+  display: flex;
+  justify-content: space-between;
+  align-self: baseline;
+  gap: 5px;
+  padding: 20px 20px 20px 30px;
+  cursor: pointer;
+  background-color: #FCB613;
+  color: #334553 !important;
+}
+
+.main-menu:hover {
+  background-color: #EEEEEE;
+  color: #334553
+}
+
+.main-menu:active {
+  background-color: #e7e7e7;
+  color: #334553;
+}
+
+.sub-menu {
+  padding: 20px 20px 20px 50px;
+  background-color: #2d3d49;
+  cursor: pointer;
+}
+
+.sub-menu:hover {
+  background-color: #d4d4d4;
+  color: #334553;
+  font-weight: 800
+}
+
+.sub-bold {
+  font-weight: 800;
+}

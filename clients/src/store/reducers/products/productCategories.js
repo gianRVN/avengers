@@ -5,7 +5,7 @@ const initialState = {
 }
 
 const productCategories = (state=initialState, action) => {
-  
+  return state
 }
 
 export default productCategories

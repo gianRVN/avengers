@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const whatsapp = (state=initialState, action) => {
-  
+  return state
 }
 
 export default whatsapp

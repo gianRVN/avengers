@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const googleShopping = (state=initialState, action) => {
-  
+  return state
 }
 
 export default googleShopping

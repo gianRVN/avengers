@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const fbChangeAdaccount = (state=initialState, action) => {
-  
+  return state
 }
 
 export default fbChangeAdaccount

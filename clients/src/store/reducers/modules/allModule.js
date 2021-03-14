@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const allModule = (state=initialState, action) => {
-  
+  return state
 }
 
 export default allModule

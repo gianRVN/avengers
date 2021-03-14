@@ -4,7 +4,7 @@ const initialState = {
 }
 
 const webstoreProfilePhoto = (state=initialState, action) => {
-  
+  return state
 }
 
 export default webstoreProfilePhoto
