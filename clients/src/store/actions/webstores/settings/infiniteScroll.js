@@ -1,10 +1,15 @@
-const initialState = {
-  isShowed: true,
-  isAllowed: true,
+export const changeInfiniteScroll = () => {
+  return (
+    {
+      type: "CHANGE_INFINITE_SCROLL"
+    }
+  )
 }
 
-const infiniteScroll = (state=initialState, action) => {
-  
+export const closeInfiniteScroll = () => {
+  return (
+    {
+      type: "CLOSE_INFINITE_SCROLL",
+    }
+  )
 }
-
-export default infiniteScroll

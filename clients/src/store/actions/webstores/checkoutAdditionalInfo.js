@@ -1,10 +1,15 @@
-const initialState = {
-  isShowed: true,
-  isAllowed: false,
+export const changeCheckoutAdditionalInfo = () => {
+  return (
+    {
+      type: "CHANGE_CHECKOUT_ADDITIONAL_INFO"
+    }
+  )
 }
 
-const checkoutAdditionalInfo = (state=initialState, action) => {
-  
+export const closeCheckoutAdditionalInfo = () => {
+  return (
+    {
+      type: "CLOSE_CHECKOUT_ADDITIONAL_INFO",
+    }
+  )
 }
-
-export default checkoutAdditionalInfo

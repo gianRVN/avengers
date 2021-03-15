@@ -1,10 +1,15 @@
-const initialState = {
-  isShowed: true,
-  isAllowed: true,
+export const changeGoogleAnalytic = () => {
+  return (
+    {
+      type: "CHANGE_GOOGLE_ANALYTIC"
+    }
+  )
 }
 
-const googleAnalytic = (state=initialState, action) => {
-  
+export const closeGoogleAnalytic = () => {
+  return (
+    {
+      type: "CLOSE_GOOGLE_ANALYTIC",
+    }
+  )
 }
-
-export default googleAnalytic

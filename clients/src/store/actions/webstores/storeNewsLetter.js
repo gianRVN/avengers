@@ -1,10 +1,15 @@
-const initialState = {
-  isShowed: true,
-  isAllowed: false,
+export const changeStoreNewsletter = () => {
+  return (
+    {
+      type: "CHANGE_STORE_NEWSLETTER"
+    }
+  )
 }
 
-const storeNewsLetter = (state=initialState, action) => {
-  
+export const closeStoreNewsletter = () => {
+  return (
+    {
+      type: "CLOSE_STORE_NEWSLETTER",
+    }
+  )
 }
-
-export default storeNewsLetter

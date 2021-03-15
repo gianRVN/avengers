@@ -1,10 +1,15 @@
-const initialState = {
-  isShowed: true,
-  isAllowed: true,
+export const changeWebstoreLogo = () => {
+  return (
+    {
+      type: "CHANGE_WEBSTORE_LOGO"
+    }
+  )
 }
 
-const webstoreLogo = (state=initialState, action) => {
-  
+export const closeWebstoreLogo = () => {
+  return (
+    {
+      type: "CLOSE_WEBSTORE_LOGO",
+    }
+  )
 }
-
-export default webstoreLogo

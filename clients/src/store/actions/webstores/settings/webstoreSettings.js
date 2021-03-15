@@ -1,10 +1,15 @@
-const initialState = {
-  isShowed: true,
-  isAllowed: true,
+export const changeWebstoreSetting = () => {
+  return (
+    {
+      type: "CHANGE_WEBSTORE_SETTING"
+    }
+  )
 }
 
-const webstoreSettings = (state=initialState, action) => {
-  
+export const closeWebstoreSetting = () => {
+  return (
+    {
+      type: "CLOSE_WEBSTORE_SETTING",
+    }
+  )
 }
-
-export default webstoreSettings

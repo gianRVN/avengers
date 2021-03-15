@@ -1,10 +1,15 @@
-const initialState = {
-  isShowed: true,
-  isAllowed: true,
+export const changeWebstoreSlider = () => {
+  return (
+    {
+      type: "CHANGE_WEBSTORE_SLIDER"
+    }
+  )
 }
 
-const webstoreSlider = (state=initialState, action) => {
-  
+export const closeWebstoreSlider = () => {
+  return (
+    {
+      type: "CLOSE_WEBSTORE_SLIDER",
+    }
+  )
 }
-
-export default webstoreSlider

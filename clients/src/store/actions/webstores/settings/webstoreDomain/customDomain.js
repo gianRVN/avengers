@@ -1,10 +1,15 @@
-const initialState = {
-  isShowed: true,
-  isAllowed: false,
+export const changeCustomDomain = () => {
+  return (
+    {
+      type: "CHANGE_CUSTOM_DOMAIN"
+    }
+  )
 }
 
-const customDomain = (state=initialState, action) => {
-  
+export const closeCustomDomain = () => {
+  return (
+    {
+      type: "CLOSE_CUSTOM_DOMAIN",
+    }
+  )
 }
-
-export default customDomain

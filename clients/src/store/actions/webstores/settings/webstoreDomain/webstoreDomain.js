@@ -1,10 +1,15 @@
-const initialState = {
-  isShowed: true,
-  isAllowed: true,
+export const changeWebstoreDomain = () => {
+  return (
+    {
+      type: "CHANGE_WEBSTORE_DOMAIN"
+    }
+  )
 }
 
-const webstoreDomain = (state=initialState, action) => {
-  
+export const closeWebstoreDomain = () => {
+  return (
+    {
+      type: "CLOSE_WEBSTORE_DOMAIN",
+    }
+  )
 }
-
-export default webstoreDomain

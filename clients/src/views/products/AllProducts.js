@@ -10,7 +10,6 @@ function AllProducts(){
   const { isShowedAllProductAdd, isAllowedAllProductAdd } = useSelector(state => state.allProductsAdd)
   const { isShowedAllProductImport, isAllowedAllProductImport } = useSelector(state => state.allProductsImport)
   const addProduct = () => {
-    console.log('masuk')
     dispatch(closeAllProductsImport())
     dispatch(changeAllProductsAdd())
   }
@@ -19,7 +18,6 @@ function AllProducts(){
     dispatch(changeAllProductsImport())
   }
   
-  console.log(isShowedAllProductAdd, "pppppp")
   return(
     <>
       <div className="all-products-container">

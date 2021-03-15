@@ -1,10 +1,15 @@
-const initialState = {
-  isShowed: true,
-  isAllowed: true,
+export const changePage = () => {
+  return (
+    {
+      type: "CHANGE_PAGE"
+    }
+  )
 }
 
-const pages = (state=initialState, action) => {
-  
+export const closePage = () => {
+  return (
+    {
+      type: "CLOSE_PAGE",
+    }
+  )
 }
-
-export default pages

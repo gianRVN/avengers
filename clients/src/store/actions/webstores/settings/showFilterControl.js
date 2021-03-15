@@ -1,10 +1,15 @@
-const initialState = {
-  isShowed: true,
-  isAllowed: false,
+export const changeShowFilterControl = () => {
+  return (
+    {
+      type: "CHANGE_SHOW_FILTER_CONTROL"
+    }
+  )
 }
 
-const showFilterControl = (state=initialState, action) => {
-  
+export const closeShowFilterControl = () => {
+  return (
+    {
+      type: "CLOSE_SHOW_FILTER_CONTROL",
+    }
+  )
 }
-
-export default showFilterControl

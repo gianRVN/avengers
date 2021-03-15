@@ -1,10 +1,15 @@
-const initialState = {
-  isShowed: true,
-  isAllowed: true,
+export const changeWebstoreProfilePhoto = () => {
+  return (
+    {
+      type: "CHANGE_WEBSTORE_PROFILE_PHOTO"
+    }
+  )
 }
 
-const webstoreProfilePhoto = (state=initialState, action) => {
-  
+export const closeWebstoreProfilePhoto = () => {
+  return (
+    {
+      type: "CLOSE_WEBSTORE_PROFILE_PHOTO",
+    }
+  )
 }
-
-export default webstoreProfilePhoto

@@ -1,10 +1,15 @@
-const initialState = {
-  isShowed: true,
-  isAllowed: true,
+export const changeWebstoreMobileFriendly = () => {
+  return (
+    {
+      type: "CHANGE_WEBSTORE_MOBILE_FRIENDLY"
+    }
+  )
 }
 
-const webstoreMobileFriendly = (state=initialState, action) => {
-  
+export const closeWebstoreMobileFriendly = () => {
+  return (
+    {
+      type: "CLOSE_WEBSTORE_MOBILE_FRIENDLY",
+    }
+  )
 }
-
-export default webstoreMobileFriendly

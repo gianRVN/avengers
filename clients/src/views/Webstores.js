@@ -1,6 +1,6 @@
 import '../assets/styles/dashboard/dashboard.css'
 
-function Dashboard(){
+function Webstores(){
   return(
     <>
       <div className="container-dashboard">
@@ -33,4 +33,4 @@ function Dashboard(){
   )
 }
 
-export default Dashboard
+export default Webstores

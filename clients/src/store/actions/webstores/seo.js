@@ -1,10 +1,15 @@
-const initialState = {
-  isShowed: true,
-  isAllowed: true,
+export const changeSeo = () => {
+  return (
+    {
+      type: "CHANGE_SEO"
+    }
+  )
 }
 
-const seo = (state=initialState, action) => {
-  
+export const closeSeo = () => {
+  return (
+    {
+      type: "CLOSE_SEO",
+    }
+  )
 }
-
-export default seo

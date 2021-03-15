@@ -1,10 +1,15 @@
-const initialState = {
-  isShowed: true,
-  isAllowed: true,
+export const changeThemes = () => {
+  return (
+    {
+      type: "CHANGE_THEMES"
+    }
+  )
 }
 
-const themes = (state=initialState, action) => {
-  
+export const closeThemes = () => {
+  return (
+    {
+      type: "CLOSE_THEMES",
+    }
+  )
 }
-
-export default themes
